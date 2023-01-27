@@ -1,0 +1,89 @@
+* {
+  font-family: "Alegreya", serif;
+}
+#hero {
+  background: linear-gradient(0deg, #32302fd6, rgb(36 32 35 / 75%)),
+    url(./murudeshvarava-devasthana-statue-shiva-murdeshwar-karnataka-india_380726-383-transformed.jpeg);
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+}
+.rounded-31{
+  border-radius: 2.5rem;
+}
+.navbar a {
+  color: #ffe394 !important;
+}
+.navbar a:hover {
+  color: #7c7152 !important;
+}
+.navbar-toggler-icon {
+  background-image: url(./menu-removebg-preview.png);
+}
+.about-us {
+  background: linear-gradient(0deg, #32302fb8, rgb(36 32 35 / 58%)),
+    url(./18322582.jpg);
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 991px) {
+  .navbar-nav {
+    gap: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .text-left {
+    margin: 3rem;
+  }
+  .banner-text{
+    margin-top: 20rem!important;
+  }
+}
+
+.navbar-nav {
+  gap: 5rem;
+}
+.fade-in-image {
+  animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.cta {
+  background: linear-gradient(0deg, #32302f, rgb(36 32 35 / 68%)),
+    url(/diwali.jpg);
+  background-position: bottom;
+  background-size: cover;
+  padding: 20px 0;
+}
+
+div .show {
+  width: 150%;
+  background-color: dimgray;
+  border-radius: 10px;
+}
+div .show .navbar-nav a {
+  padding: 0.7rem;
+}
+.banner-head {
+  font-size: 3.5rem;
+  color: #ffe394;
+  font-weight: 800;
+  word-spacing: 0.6rem;
+}
+.banner-head2 {
+    color: #ffe394; word-spacing: 0.3rem;
+  }
+.about{
+    color: #ffe394; font-weight: 400; word-spacing: 0.6rem;
+}
+  
